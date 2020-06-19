@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: solid 1px red;
+}
+.container .header .logo {
+    width: 20%;
+}
+.logo img {
+    width: 10%;
+}
+.logo h2 {
+    float: right;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35%;
+    
+}
+.container  .header-navigasyon {
+    float: right;
+    width: 40%;
+    
+}
+.header-navigasyon ul {
+    float: right;
+    text-align: center;
+}
+.header-navigasyon ul li {
+    float:right;
+    margin: 10px;
+    list-style-type:none;
+    
+}
+.header-navigasyon ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
